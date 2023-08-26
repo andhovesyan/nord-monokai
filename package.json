@@ -1,0 +1,21 @@
+{
+  "name": "nord-monokai",
+  "displayName": "Nord Monokai",
+  "description": "Nord Background + Monokai Syntax Highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nord Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nord Monokai-color-theme.json"
+      }
+    ]
+  }
+}
